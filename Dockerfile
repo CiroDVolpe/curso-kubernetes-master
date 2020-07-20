@@ -1,3 +1,6 @@
 FROM jnlucas/image-phpmysql:latest
 
-COPY noticias /var/www/html
+# utilizado para portal de noticias
+# COPY noticias /var/www/html
+
+COPY sistema /var/www/html
